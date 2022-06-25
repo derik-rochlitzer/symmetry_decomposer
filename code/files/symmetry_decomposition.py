@@ -99,8 +99,11 @@ def _assign_irreps_to_coefs(coefs, group):
         if coef < 0:
             raise ValueError("Negative coeficient obtained!")
         if coef != 0:
-            irrep_str = str(coef) + irrep
-            irreps.append(irrep_str)
+            if coef != 1:
+                irrep_str = str(coef) + irrep
+                irreps.append(irrep_str)
+            else:
+                irreps.append(irrep)
     return irreps    
 
 
