@@ -14,7 +14,16 @@ Once executed, the interface is intuitive. First, the numbers for the reducible 
 
 ## **Supported symmetry point groups**
 
-The following symmetry point groups are currently implemented: $C_s$ , $C_2$ , $C_3$ , $C_4$ , $C_5$ , $C_6$ , $S_4$ , $S_6$ , $C_{2v}$ , $C_{3v}$ , $C_{4v}$ , $C_{5v}$ , $C_{6v}$ , $C_{2h}$ , $D_2$ , $D_3$ , $D_4$ , $D_6$ , $D_{2d}$ , $D_{3d}$ , $D_{4d}$ , $D_{6d}$ , $D_{2h}$ , $D_{3h}$ , $D_{4h}$ , $D_{6h}$ , $T_d$ and $O_h$ .
+The following symmetry point groups are currently implemented: 
+- $C_s$ 
+- $C_2$ , $C_3$ , $C_4$ , $C_5$ , $C_6$
+- $S_4$ , $S_6$
+- $C_{2v}$ , $C_{3v}$ , $C_{4v}$ , $C_{5v}$ , $C_{6v}$
+- $C_{2h}$
+- $D_2$ , $D_3$ , $D_4$ , $D_6$
+- $D_{2d}$ , $D_{3d}$ , $D_{4d}$ , $D_{6d}$
+- $D_{2h}$ , $D_{3h}$ , $D_{4h}$ , $D_{6h}$
+- $T_d$ , $O_h$
 
 
 ## **Dependencies**
@@ -22,6 +31,10 @@ The following symmetry point groups are currently implemented: $C_s$ , $C_2$ , $
 - Numpy 1.20.1
 - PyQt 5.9.2
 
+
+## **Known issues**
+
+- On macOS, the interface is not as well-fitted as it should be.
 
 ## **Contact**
 
