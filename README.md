@@ -9,7 +9,7 @@ The application works in the same directory where it is downloaded. To run it, t
 
 Make sure the "files" folder is in the same directory as *decomposer.py* and that the terminal is working in that directory.
 
-Once executed, the interface is intuitive. First, the numbers for the reducible representation have to be typed in separated by spaces and according to the order of symmetry operations in standard character tables. Then, the symmetry point group is chosen. Finally, hit the "enter" key or press the "ok" button.
+Once executed, the interface is intuitive. First, the numbers for the reducible representation have to be typed in separated by spaces and according to the order of symmetry operations in standard character tables (see reference in "files" folder). Then, the symmetry point group is chosen. Finally, hit the "enter" key or press the "ok" button.
 
 
 ## **Supported symmetry point groups**
